@@ -4,9 +4,9 @@
             <i class="material-icons">menu</i>
         </button>
 
-        <button class="home-button">
+        <router-link to="/home" class="home-button">
             <h1>localhost:</h1>
-        </button>
+        </router-link>
     </div>
 </template>
 
@@ -35,6 +35,10 @@
     .flex-container {
         display: flex;
         flex-direction: row;
+    }
+
+    a {
+        text-decoration: none;
     }
 
     .home-button {

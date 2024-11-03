@@ -44,4 +44,20 @@
         display: flex;
         flex-direction: row;
   }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgb(17, 20, 20);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(50, 57, 58);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(38, 43, 44)
+  }
 </style>
