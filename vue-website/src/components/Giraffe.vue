@@ -7,7 +7,7 @@
 
 <style scoped>
     img {
-        size: 50%;
-        align-content: center;
+        width: 40%;
+        margin: 2% 25%
     }
 </style>

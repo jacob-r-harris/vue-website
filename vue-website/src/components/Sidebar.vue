@@ -1,12 +1,12 @@
 <template>
     <div id="sidebarBg" class="sidebar-content">
-        <button class="sidebar-nav-button">
+        <router-link to="/home" class="sidebar-nav-button">
             Home
-        </button>
+        </router-link>
 
-        <button class="sidebar-nav-button">
+        <router-link to="/giraffe" class="sidebar-nav-button">
             Giraffe
-        </button>
+        </router-link>
     </div>
 </template>
 
@@ -19,6 +19,10 @@
         min-height: 100%;
         background: rgb(38, 43, 44);
         transition: all 0.2s;
+    }
+
+    a {
+        text-decoration: none;
     }
 
     .sidebar-content {

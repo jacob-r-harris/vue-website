@@ -4,7 +4,7 @@
     <Transition>
       <sidebar v-show="showSidebar"/>
     </Transition>
-    <lipsum style="padding: 0 20%;"/>
+    <router-view></router-view>
   </div>
 </template>
 

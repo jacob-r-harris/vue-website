@@ -35,5 +35,7 @@
 <style scoped>
     div {
         text-wrap: pretty;
+        width: 60%;
+        margin: 0 25%;
     }
 </style>
