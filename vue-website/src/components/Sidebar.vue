@@ -7,6 +7,10 @@
         <router-link to="/giraffe" class="sidebar-nav-button">
             Giraffe
         </router-link>
+
+        <router-link to="/newscraper" class="sidebar-nav-button">
+            NewScraper
+        </router-link>
     </div>
 </template>
 
