@@ -1,7 +1,11 @@
 <template>
-    <button @click="fetchData">Fetch data</button>
+    <div>
+        <button @click="fetchData">Fetch data</button>
+    </div>
     <div v-if="data">
-        <p>Test: {{ data }}</p>
+        <img :src="data.image">
+        <a :href="data.url"><h2>{{ data.headline }}</h2></a>
+        <p>{{ data.blurb }}</p>
     </div>
 </template>
   
